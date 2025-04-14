@@ -24,14 +24,15 @@ The core idea is that moving a latent code `z` by a vector `d` should result in 
     *   Qualitative Latent Space Interpolation.
     *   Distribution of Latent Code Norms.
 
-.
-├── models.py             # Contains VAE and Classifier model definitions
-├── Evaluation.py         # Script to load trained models and evaluate them
-├── weights/              # Directory containing pre-trained model weights
-│   ├── classifier.pth
-│   ├── VAE_epoch50.pth
-│   ├── b5-VAE_epoch50.pth
-│   └── semanticVAE_epoch50.pth
-├── data/                 # (Optional/Created by script) MNIST dataset storage
-├── README.md             # This file
-└── (training scripts)    # (Not provided - needed to train the models)
+## Directory structure
+
+├── models.py             # Contains VAE and Classifier model definitions  
+├── Evaluation.py         # Script to load trained models and evaluate them   
+├── weights/              # Directory containing pre-trained model weights  
+│   ├── classifier.pth  
+│   ├── VAE_epoch50.pth  
+│   ├── b5-VAE_epoch50.pth  
+│   └── semanticVAE_epoch50.pth  
+├── data/                 # MNIST dataset storage  
+├── README.md             
+  
