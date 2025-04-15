@@ -13,6 +13,10 @@ Standard VAEs often learn complex, entangled latent representations. While they 
 
 The core idea is that moving a latent code `z` by a vector `d` should result in a change in the output image that has a *consistent semantic meaning* across different starting points `z`. We measure this consistency using features extracted from a pre-trained classifier and penalize the variance of the semantic difference.
 
+## Latent Space Interpolations Example
+![unet](Examples/example2.png)
+
+
 ## Key Features
 
 *   ResNet-based VAE architecture (`ResNet_AutoEncoder` in `models.py`).
