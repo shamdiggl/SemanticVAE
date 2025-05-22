@@ -2,9 +2,8 @@
 
 This project explores enhancing the interpretability of Variational Autoencoder (VAE) latent spaces. The goal is to train a VAE where specific directions in the latent space correspond to consistent semantic changes in the generated image, regardless of the starting point. This is achieved by introducing a novel "semantic variance" loss term during training.
 
-The project, for the time being, compares three models trained on the MNIST dataset:
+The project compares VAE and and porposed model trained on the dSprites and CelebA dataset:
 1.  **Standard VAE:** A baseline ResNet-based VAE.
-2.  **β-VAE:** A VAE trained with β=5 (indicated by filename) to encourage disentanglement.
 3.  **Semantic VAE:** Our proposed VAE trained with the additional semantic variance loss term.
 
 ## Overview
